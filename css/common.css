@@ -12,3 +12,92 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* ===================TASK 1=================== */
+
+.ul-container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  width: 440px;
+  background-color: #fff;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 16px;
+  background: #f6f6fe;
+}
+
+.item > h2{
+  margin: 0px;
+}
+
+.item>ul{
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item > ul > li{
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 13px 15px;
+}
+
+/* ===================TASK 2=================== */
+
+.gallery{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+  padding: 0;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.img-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-container{
+  width: 360px;
+  height: 300px;
+  object-fit: contain;
+}
+
+/* ===================TASK 3=================== */
+
+#name-input{
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 408px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#name-input::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
